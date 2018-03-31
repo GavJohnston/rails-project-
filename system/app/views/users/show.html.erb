@@ -1,0 +1,21 @@
+<p>
+ <strong>name:</strong>
+ <%= @user.name %>
+</p>
+
+<p>
+ <strong>address:</strong>
+ <%= @user.address %>
+</p>
+
+<p>
+ <strong>phone_number:</strong>
+ <%= @user.phone_number %>
+</p>
+
+<p>
+ <strong>date_of_birth:</strong>
+ <%= @user.date_of_birth %>
+</p>
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
