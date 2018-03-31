@@ -1,0 +1,19 @@
+<p>
+ <strong>Issue:</strong>
+ <%= extra.issue %>
+</p>
+
+<p>
+ <strong>current_date:</strong>
+ <%= extra.current_date %>
+</p>
+
+<p>
+ <strong>resolution:</strong>
+ <%= extra.resolution %>
+</p>
+<p>
+<%= link_to 'Destroy Extra', [extra.user, extra],
+ method: :delete,
+ data: { confirm: 'Are you sure?' } %>
+ </p>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  issue: MyString
+  current_date: MyText
+  resolution: MyText
+  user: one
+
+two:
+  issue: MyString
+  current_date: MyText
+  resolution: MyText
+  user: two
