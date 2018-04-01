@@ -6,7 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.text :phone_number
       t.date :date_of_birth
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

@@ -4,10 +4,12 @@ one:
   issue: MyString
   current_date: 2018-04-01
   resolution: MyText
+  next_appointment: 2018-04-01
   user: one
 
 two:
   issue: MyString
   current_date: 2018-04-01
   resolution: MyText
+  next_appointment: 2018-04-01
   user: two
