@@ -1,3 +1,3 @@
-class Extra < ActiveRecord::Base
- belongs_to :user
+class Extra < ApplicationRecord
+  belongs_to :user
 end

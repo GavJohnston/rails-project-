@@ -2,12 +2,12 @@
 
 one:
   issue: MyString
-  current_date: MyText
+  current_date: 2018-04-01
   resolution: MyText
   user: one
 
 two:
   issue: MyString
-  current_date: MyText
+  current_date: 2018-04-01
   resolution: MyText
   user: two
